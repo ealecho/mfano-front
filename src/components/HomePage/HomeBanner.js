@@ -1,5 +1,5 @@
 import React from 'react'
-import {Banner, BannerTitle, BTPrimary, BTSecondary,  Headline, Headline1} from '../../styles/homeStyles.js'
+import {Banner, BannerTitle, BTPrimary, BTSecondary,  Headline, Headline1} from '../../styles/homeStyles'
 
 
 const HomeBanner = () => {
