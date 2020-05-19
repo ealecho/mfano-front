@@ -1,6 +1,6 @@
 import React from 'react'
 import {Banner, BannerTitle, BTPrimary, BTSecondary,  Headline, Headline1} from '../../styles/homeStyles'
-import { Flex } from '../../styles/globalStyles'
+
 
 const HomeBanner = () => {
     return (
