@@ -27,7 +27,9 @@
     "react-intersection-observer": "^8.26.1",
     "react-markdown": "^4.3.1",
     "styled-components": "^5.0.1",
-    "styled-normalize": "^8.0.7"
+    "styled-media-query": "^2.1.2",
+    "styled-normalize": "^8.0.7",
+    "styled-reset": "^4.1.4"
   },
   "devDependencies": {
     "prettier": "^1.19.1"
