@@ -105,6 +105,13 @@ export const BTSecondary = styled.div `
         padding: 10px 10px;
         border-radius: 100px 100px 100px 100px;
         text-transform: uppercase;
+        letter-spacing:0.1rem;
+
+        ${media.greaterThan("large")`
+    /* screen width is greater than 1170px (large) */
+    border: solid 1px;
+    font-weight: normal;
+  `}
         
         
         span{
