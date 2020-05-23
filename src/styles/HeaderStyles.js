@@ -4,10 +4,16 @@ import {motion} from 'framer-motion'
 
 export const HeaderNav = styled.div `
 position: absolute;
-top: 72px;
+top: 10px;
 right: 0;
 left: 0;
 z-index:99;
+
+${media.greaterThan("large")`
+    /* screen width is greater than 1170px (large) */
+    top: 60px;
+  `}
+
 
 `
 
@@ -33,9 +39,8 @@ export const Logo =styled.div `
 a {
     font-size: 1.8rem;
     font-weight: 800;
-    color: #111111;
-    background-color: white;
-    padding: 0.8rem
+    color: white;
+ 
 
 }
 `
@@ -46,9 +51,10 @@ export const Menu =  styled.div`
         padding: 20px 0;
         background: none;
         outline: none;
+        cursor: pointer;
         span {
-            width: 45px;
-            height: 5px;
+            width: 40px;
+            height: 2px;
             display: block;
             background: white;
             margin: 8px 0;

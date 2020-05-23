@@ -21,8 +21,10 @@ Service design, Venture design and impact Design.
                     </Definition>
 
                     <button>
-                        <span></span>
                         <div>Our approach</div>
+                        <span>
+                            
+                        </span>
                     </button>
                 </BTSecondary>
            
