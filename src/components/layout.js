@@ -11,6 +11,7 @@ import Footer from "./Footer"
 const GlobalStyle = createGlobalStyle`
 ${normalize}
 
+@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@400;700&display=swap');
 * {
   text-decoration: none;
   
@@ -20,7 +21,9 @@ html {
     -webkit-font-smoothing: antialiased;
     font-size: 16px;
   
-  
+
+
+
 }
 body {
   font-size: 16px;
